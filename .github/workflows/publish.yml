@@ -16,7 +16,7 @@ env:
   REPOSITORIES: "Limitex/mono-ui"
   OUTPUT: ${{ github.workspace }}/dist
   FILENAME: index.json
-  MINIFIED: false
+  MINIFIED: true
 
 jobs:
   deploy:
