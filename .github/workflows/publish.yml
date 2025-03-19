@@ -1,0 +1,52 @@
+name: Publish Package Manifest
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+env:
+  PACKAGE_TITLE: "Limitex Packages"
+  PACKAGE_AUTHOR: "Limitex"
+  PACKAGE_ID: "dev.limitex"
+  PACKAGE_URL: "https://vpm.limitex.dev/index.json"
+  REPOSITORIES: "Limitex/mono-ui"
+  OUTPUT: ${{ github.workspace }}/dist
+  FILENAME: index.json
+  MINIFIED: false
+
+jobs:
+  deploy:
+    name: Deploy repository manifest
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create repository manifest
+        uses: Limitex/vrchat-package-lister@b1e167abe03b2a70161b2caec1cfe7b1ac477f70
+        id: create-manifest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          package-title: ${{ env.PACKAGE_TITLE }}
+          package-author: ${{ env.PACKAGE_AUTHOR }}
+          package-id: ${{ env.PACKAGE_ID }}
+          package-url: ${{ env.PACKAGE_URL }}
+          repositories: ${{ env.REPOSITORIES }}
+          output: ${{ env.OUTPUT }}
+          filename: ${{ env.FILENAME }}
+          minified: ${{ env.MINIFIED }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ steps.create-manifest.outputs.output }}
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN  }}
