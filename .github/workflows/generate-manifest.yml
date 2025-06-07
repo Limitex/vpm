@@ -1,12 +1,11 @@
-name: Publish Package Manifest
+name: 'Create Manifest Pull Request'
 
 on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
+  pull-requests: write
 
 env:
   PACKAGE_TITLE: "Limitex Packages"
@@ -19,13 +18,15 @@ env:
   MINIFIED: true
 
 jobs:
-  deploy:
-    name: Deploy repository manifest
+  create-pr:
+    name: Create Manifest Pull Request
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Create repository manifest
         uses: Limitex/vrchat-package-lister@b1e167abe03b2a70161b2caec1cfe7b1ac477f70
-        id: create-manifest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           package-title: ${{ env.PACKAGE_TITLE }}
@@ -37,16 +38,14 @@ jobs:
           filename: ${{ env.FILENAME }}
           minified: ${{ env.MINIFIED }}
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Create Pull Request if changes exist
+        uses: peter-evans/create-pull-request@v6
         with:
-          path: ${{ steps.create-manifest.outputs.output }}
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN  }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: Update package manifest'
+          title: '📝 Update Package Manifest'
+          body: |
+            Package manifest has been updated by an automated process.
+            Please review the changes and merge to deploy.
+          branch: 'update-manifest'
+          delete-branch: true
