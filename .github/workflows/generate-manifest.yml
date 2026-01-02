@@ -12,7 +12,7 @@ env:
   PACKAGE_AUTHOR: "Limitex"
   PACKAGE_ID: "dev.limitex"
   PACKAGE_URL: "https://vpm.limitex.dev/index.json"
-  REPOSITORIES: "Limitex/mono-ui"
+  REPOSITORIES: "Limitex/mono-ui,Limitex/avatar-compressor"
   OUTPUT: ${{ github.workspace }}/dist
   FILENAME: index.json
   MINIFIED: true
