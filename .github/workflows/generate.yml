@@ -1,0 +1,48 @@
+name: "Generate"
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: "generate"
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate:
+    name: "Generate"
+    runs-on: ubuntu-latest
+    env:
+      VOYAGER_OUTPUT_PATH: "dist/index.json"
+      VOYAGER_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      VOYAGER_ASSET_NAME: "package.json"
+      VOYAGER_MAX_CONCURRENT: "5"
+      VOYAGER_MAX_RETRIES: "3"
+      NO_COLOR: "1"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup voyager-vpm
+        uses: ./.github/actions/setup-voyager
+
+      - name: Fetch repository package manifests
+        run: voy fetch
+
+      - name: Generate VPM manifest
+        run: voy generate
+
+      - name: Create Pull Request if changes exist
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: update package manifest"
+          title: "chore: update package manifest"
+          body: |
+            Package manifest has been updated by an automated process.
+            This PR was generated with voyager-vpm.
+          branch: "update-manifest"
+          delete-branch: true
