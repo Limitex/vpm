@@ -1,0 +1,5 @@
+[vpm]
+id = "dev.limitex"
+name = "Limitex Packages"
+author = "Limitex"
+url = "https://vpm.limitex.dev/index.json"
