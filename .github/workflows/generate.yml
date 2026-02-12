@@ -41,7 +41,7 @@ jobs:
       - name: Create Pull Request if changes exist
         uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.ACTIONS_TRIGGER_TOKEN != '' && secrets.ACTIONS_TRIGGER_TOKEN || secrets.GITHUB_TOKEN }}
           commit-message: "chore: update package manifest"
           title: "chore: update package manifest"
           body: |
