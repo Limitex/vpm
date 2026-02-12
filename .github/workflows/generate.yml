@@ -35,6 +35,9 @@ jobs:
       - name: Generate VPM manifest
         run: voy generate
 
+      - name: Validate VPM manifest
+        run: voy validate "$VOYAGER_OUTPUT_PATH"
+
       - name: Create Pull Request if changes exist
         uses: peter-evans/create-pull-request@v7
         with:
