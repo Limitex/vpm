@@ -1,0 +1,39 @@
+name: "Validate"
+
+on:
+  pull_request:
+    branches:
+      - "main"
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "pr-validate-${{ github.event.pull_request.number }}"
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: "Validate"
+    runs-on: ubuntu-latest
+    if: ${{ !github.event.pull_request.draft }}
+    env:
+      VOYAGER_OUTPUT_PATH: "dist/index.json"
+      NO_COLOR: "1"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup voyager-vpm
+        uses: ./.github/actions/setup-voyager
+
+      - name: Validate JSON syntax
+        run: jq empty "$VOYAGER_OUTPUT_PATH"
+
+      - name: Validate manifest URLs
+        run: voy validate "$VOYAGER_OUTPUT_PATH"

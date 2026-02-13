@@ -1,0 +1,1070 @@
+version = 1
+manifest_hash = "sha256:3939227b546a3584aa68690d0887fa055f093c9552e3a4a39e6dd48b9cd05e36"
+
+[[packages]]
+id = "dev.limitex.mono-ui"
+repository = "Limitex/mono-ui"
+
+[[packages.versions]]
+version = "1.0.0-rc.10"
+tag = "v1.0.0-rc.10"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.10/package.json"
+hash = "sha256:625f525956716a9032eabe568a30714ed1de4b8516a5969830fb9f322d175c0a"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "1.0.0-rc.10"
+displayName = "Mono UI"
+description = "Mono UI is a UI component package for VRChat world creation. It provides simple and customizable UI elements optimized for VRChat environments, helping creators build interactive and user-friendly interfaces in their worlds."
+unity = "2022.3"
+unityRelease = "22f1"
+documentationUrl = "https://docs.limitex.dev/vrc/monoui"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.10/mono-ui-1.0.0-rc.10.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+"com.vrchat.base" = "3.7.0"
+"com.vrchat.worlds" = "3.7.0"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.base" = ">=3.7.0"
+"com.vrchat.worlds" = ">=3.7.0"
+
+[[packages.versions]]
+version = "1.0.0-rc.9"
+tag = "v1.0.0-rc.9"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.9/package.json"
+hash = "sha256:e9cf45f2fa3190508379b3e396eb3433d0524a3521979e4c616e06b846441938"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "1.0.0-rc.9"
+displayName = "Mono UI"
+description = "Mono UI is a UI component package for VRChat world creation. It provides simple and customizable UI elements optimized for VRChat environments, helping creators build interactive and user-friendly interfaces in their worlds."
+unity = "2022.3"
+unityRelease = "22f1"
+documentationUrl = "https://docs.limitex.dev/vrc/monoui"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.9/mono-ui-1.0.0-rc.9.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+"com.vrchat.base" = "3.7.0"
+"com.vrchat.worlds" = "3.7.0"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.base" = ">=3.7.0"
+"com.vrchat.worlds" = ">=3.7.0"
+
+[[packages.versions]]
+version = "1.0.0-rc.8"
+tag = "v1.0.0-rc.8"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.8/package.json"
+hash = "sha256:2ab7afdd05a82304816a75e569fd00a02668d61957486617af92d53bf13bda66"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "1.0.0-rc.8"
+displayName = "Mono UI"
+description = "Mono UI is a UI component package for VRChat world creation. It provides simple and customizable UI elements optimized for VRChat environments, helping creators build interactive and user-friendly interfaces in their worlds."
+unity = "2022.3"
+unityRelease = "22f1"
+documentationUrl = "https://docs.limitex.dev/vrc/monoui"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.8/mono-ui-1.0.0-rc.8.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+"com.vrchat.base" = "3.7.0"
+"com.vrchat.worlds" = "3.7.0"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.base" = ">=3.7.0"
+"com.vrchat.worlds" = ">=3.7.0"
+
+[[packages.versions]]
+version = "1.0.0-rc.7"
+tag = "v1.0.0-rc.7"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.7/package.json"
+hash = "sha256:1e12109f7a2918053c4e27da058091a0d307e9693b5b9c8c7c451bd66695aa62"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "1.0.0-rc.7"
+displayName = "Mono UI"
+description = "Mono UI is a UI component package for VRChat world creation. It provides simple and customizable UI elements optimized for VRChat environments, helping creators build interactive and user-friendly interfaces in their worlds."
+unity = "2022.3"
+unityRelease = "22f1"
+documentationUrl = "https://docs.limitex.dev/vrc/monoui"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.7/mono-ui-1.0.0-rc.7.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+"com.vrchat.base" = "3.7.0"
+"com.vrchat.worlds" = "3.7.0"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.base" = ">=3.7.0"
+"com.vrchat.worlds" = ">=3.7.0"
+
+[[packages.versions]]
+version = "1.0.0-rc.6"
+tag = "v1.0.0-rc.6"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.6/package.json"
+hash = "sha256:d9a1b9f125ba9043a38e20d31e5702d69a3a239b814e2d238d9917ac576c4904"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "1.0.0-rc.6"
+displayName = "Mono UI"
+description = "Mono UI is a UI component package for VRChat world creation. It provides simple and customizable UI elements optimized for VRChat environments, helping creators build interactive and user-friendly interfaces in their worlds."
+unity = "2022.3"
+unityRelease = "22f1"
+documentationUrl = "https://docs.limitex.dev/vrc/monoui"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.6/mono-ui-1.0.0-rc.6.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+"com.vrchat.base" = "3.7.0"
+"com.vrchat.worlds" = "3.7.0"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.base" = ">=3.7.0"
+"com.vrchat.worlds" = ">=3.7.0"
+
+[[packages.versions]]
+version = "1.0.0-rc.5"
+tag = "v1.0.0-rc.5"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.5/package.json"
+hash = "sha256:91662525c67b3deb5bfd4272939d5bb8cc79ed4466f3041e8523bbb7c4095038"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "1.0.0-rc.5"
+displayName = "Mono UI"
+description = "Mono UI is a UI component package for VRChat world creation. It provides simple and customizable UI elements optimized for VRChat environments, helping creators build interactive and user-friendly interfaces in their worlds."
+unity = "2022.3"
+unityRelease = "22f1"
+documentationUrl = "https://docs.limitex.dev/vrc/monoui"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.5/mono-ui-1.0.0-rc.5.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+"com.vrchat.base" = "3.7.0"
+"com.vrchat.worlds" = "3.7.0"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.base" = ">=3.7.0"
+"com.vrchat.worlds" = ">=3.7.0"
+
+[[packages.versions]]
+version = "1.0.0-rc.4"
+tag = "v1.0.0-rc.4"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.4/package.json"
+hash = "sha256:0dad74163ce834b945e7d95cc20f4e568dcd1494b18ceb49b0b901abc93a474c"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "1.0.0-rc.4"
+displayName = "Mono UI"
+description = "Mono UI is a UI component package for VRChat world creation. It provides simple and customizable UI elements optimized for VRChat environments, helping creators build interactive and user-friendly interfaces in their worlds."
+unity = "2022.3"
+unityRelease = "22f1"
+documentationUrl = "https://docs.limitex.dev/vrc/monoui"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.4/mono-ui-1.0.0-rc.4.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+"com.vrchat.base" = "3.7.0"
+"com.vrchat.worlds" = "3.7.0"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.base" = ">=3.7.0"
+"com.vrchat.worlds" = ">=3.7.0"
+
+[[packages.versions]]
+version = "1.0.0-rc.3"
+tag = "v1.0.0-rc.3"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.3/package.json"
+hash = "sha256:10be94f5f3d5ec9330ce8d5048002fc0e4567a83275c434d959807972f073e4a"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "1.0.0-rc.3"
+displayName = "Mono UI"
+description = "Mono UI is a UI component package for VRChat world creation. It provides simple and customizable UI elements optimized for VRChat environments, helping creators build interactive and user-friendly interfaces in their worlds."
+unity = "2022.3"
+unityRelease = "22f1"
+documentationUrl = "https://docs.limitex.dev/vrc/monoui"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.3/mono-ui-1.0.0-rc.3.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+"com.vrchat.base" = "3.7.0"
+"com.vrchat.worlds" = "3.7.0"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.base" = ">=3.7.0"
+"com.vrchat.worlds" = ">=3.7.0"
+
+[[packages.versions]]
+version = "1.0.0-rc.2"
+tag = "v1.0.0-rc.2"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.2/package.json"
+hash = "sha256:52d954ef8277bf5430acc37742b7571ba793e1fe727f4854b8d2166804c1b514"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "1.0.0-rc.2"
+displayName = "Mono UI"
+description = "Mono UI is a UI component package for VRChat world creation. It provides simple and customizable UI elements optimized for VRChat environments, helping creators build interactive and user-friendly interfaces in their worlds."
+unity = "2022.3"
+unityRelease = "22f1"
+documentationUrl = "https://docs.limitex.dev/vrc/monoui"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.2/mono-ui-1.0.0-rc.2.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+"com.vrchat.base" = "3.7.0"
+"com.vrchat.worlds" = "3.7.0"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.base" = ">=3.7.0"
+"com.vrchat.worlds" = ">=3.7.0"
+
+[[packages.versions]]
+version = "1.0.0-rc.1"
+tag = "v1.0.0-rc.1"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.1/package.json"
+hash = "sha256:a999917ef3848b177f498b7e75c91e2220546e85ffb43308c12d61b2e39a42fd"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "1.0.0-rc.1"
+displayName = "Mono UI"
+description = "Mono UI is a UI component package for VRChat world creation. It provides simple and customizable UI elements optimized for VRChat environments, helping creators build interactive and user-friendly interfaces in their worlds."
+unity = "2022.3"
+unityRelease = "22f1"
+documentationUrl = "https://docs.limitex.dev/vrc/monoui"
+url = "https://github.com/Limitex/mono-ui/releases/download/v1.0.0-rc.1/mono-ui-1.0.0-rc.1.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+"com.vrchat.base" = "3.7.0"
+"com.vrchat.worlds" = "3.7.0"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.base" = ">=3.7.0"
+"com.vrchat.worlds" = ">=3.7.0"
+
+[[packages.versions]]
+version = "0.0.0-b.3"
+tag = "v0.0.0-b.3"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0-b.3/package.json"
+hash = "sha256:abe5e88c7ea42cea2a9f17f218562dc2380567928df3a678993ca4efbb730c56"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "0.0.0-b.3"
+displayName = "Mono UI"
+description = "This is an package"
+unity = "2022.3"
+unityRelease = "22f1"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0-b.3/mono-ui-0.0.0-b.3.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.worlds" = ">=3.7.0"
+
+[[packages.versions]]
+version = "0.0.0-b.2"
+tag = "v0.0.0-b.2"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0-b.2/package.json"
+hash = "sha256:28ae2edf412cef756cd60ffba3ab6244c07f234f28458cd17e69b6a93c03fe33"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "0.0.0-b.2"
+displayName = "Mono UI"
+description = "This is an package"
+unity = "2022.3"
+unityRelease = "22f1"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0-b.2/mono-ui-0.0.0-b.2.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.worlds" = ">=3.7.0"
+
+[[packages.versions]]
+version = "0.0.0-b.1"
+tag = "v0.0.0-b.1"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0-b.1/package.json"
+hash = "sha256:7aa9a2a9a3f3b37ff04ce6969d37ff83ad3a9ac0a0c20e5b811c27b1a23503ce"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "0.0.0-b.1"
+displayName = "Mono UI"
+description = "This is an package"
+unity = "2022.3"
+unityRelease = "22f1"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0-b.1/mono-ui-0.0.0-b.1.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.worlds" = ">=3.7.0"
+
+[[packages.versions]]
+version = "0.0.0-a.4"
+tag = "v0.0.0-a.4"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0-a.4/package.json"
+hash = "sha256:a3ffda0c7b95c91e36e6813bea41992bc70a39a6bc3a611521dc5104c42669c5"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "0.0.0-a.4"
+displayName = "Mono UI"
+description = "This is an package"
+unity = "2022.3"
+unityRelease = "22f1"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0-a.4/mono-ui-0.0.0-a.4.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.worlds" = ">=3.7.0"
+
+[[packages.versions]]
+version = "0.0.0-a.3"
+tag = "v0.0.0-a.3"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0-a.3/package.json"
+hash = "sha256:0037702021cc8468796f6ac8b9c77487fff02deb9610c74bd487d45ef73bf150"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "0.0.0-a.3"
+displayName = "Mono UI"
+description = "This is an package"
+unity = "2022.3"
+unityRelease = "22f1"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0-a.3/mono-ui-0.0.0-a.3.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.worlds" = ">=3.7.0"
+
+[[packages.versions]]
+version = "0.0.0-a.2"
+tag = "v0.0.0-a.2"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0-a.2/package.json"
+hash = "sha256:f8c47df19eb3f0c250c0a1d5aa7c5987c28435323dcd80dd2d68bbe680ae57e8"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "0.0.0-a.2"
+displayName = "Mono UI"
+description = "This is an package"
+unity = "2022.3"
+unityRelease = "22f1"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0-a.2/mono-ui-0.0.0-a.2.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.worlds" = ">=3.7.0"
+
+[[packages.versions]]
+version = "0.0.0-a.1"
+tag = "v0.0.0-a.1"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0-a.1/package.json"
+hash = "sha256:63ead5ab051a86312e07aeae7a93a4a5f16e5c52ee740910308c89a72458a88b"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "0.0.0-a.1"
+displayName = "Mono UI"
+description = "This is an package"
+unity = "2022.3"
+unityRelease = "22f1"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0-a.1/mono-ui-0.0.0-a.1.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.worlds" = "3.7.3"
+
+[[packages.versions]]
+version = "0.0.0-a.0"
+tag = "v0.0.0-a.0"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0-a.0/package.json"
+hash = "sha256:9d523054777091a93ceb5723ca4b12c46f7704cfd14144e0559db97b3cb8cdd8"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "0.0.0-a.0"
+displayName = "Mono UI"
+description = "This is an package"
+unity = "2022.3"
+unityRelease = "22f1"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0-a.0/mono-ui-0.0.0-a.0.zip"
+license = "MIT"
+
+[packages.versions.manifest.dependencies]
+"com.unity.textmeshpro" = "3.0.6"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.worlds" = "3.7.3"
+
+[[packages.versions]]
+version = "0.0.0"
+tag = "v0.0.0"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0/package.json"
+hash = "sha256:788fb8f1c07579ec8b17e1ae7f6c6eb4017099d81fe71b5172789df65ae2f493"
+
+[packages.versions.manifest]
+name = "dev.limitex.mono-ui"
+version = "0.0.0"
+displayName = "Mono UI"
+description = "This is an package"
+unity = "2022.3"
+unityRelease = "22f1"
+url = "https://github.com/Limitex/mono-ui/releases/download/v0.0.0/mono-ui-0.0.0.zip"
+license = "MIT"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/mono-ui"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.worlds" = "3.7.3"
+
+[[packages]]
+id = "dev.limitex.avatar-compressor"
+repository = "Limitex/avatar-compressor"
+
+[[packages.versions]]
+version = "0.5.0"
+tag = "v0.5.0"
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.5.0/package.json"
+hash = "sha256:fc6243b4abde2e64bf20302fb82d9ade4a2389c312b7d5a113c9b65f347eee9f"
+
+[packages.versions.manifest]
+name = "dev.limitex.avatar-compressor"
+version = "0.5.0"
+displayName = "Avatar Compressor"
+description = "Avatar Compressor: Non-Destructive Avatar Compression Utilities"
+unity = "2022.3"
+unityRelease = "22f1"
+keywords = [
+    "avatar",
+    "compression",
+    "texture",
+    "vrchat",
+    "optimization",
+    "ndmf",
+]
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.5.0/avatar-compressor-0.5.0.zip"
+license = "MIT"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/avatar-compressor"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.avatars" = ">=3.10.0"
+"com.vrchat.base" = ">=3.10.0"
+"nadena.dev.ndmf" = ">=1.10.0"
+
+[[packages.versions]]
+version = "0.5.0-rc.2"
+tag = "v0.5.0-rc.2"
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.5.0-rc.2/package.json"
+hash = "sha256:08eb9d432929b0248821ead80769138ad654068768eb4c01e16612381372ffa9"
+
+[packages.versions.manifest]
+name = "dev.limitex.avatar-compressor"
+version = "0.5.0-rc.2"
+displayName = "Avatar Compressor"
+description = "Avatar Compressor: Non-Destructive Avatar Compression Utilities"
+unity = "2022.3"
+unityRelease = "22f1"
+keywords = [
+    "avatar",
+    "compression",
+    "texture",
+    "vrchat",
+    "optimization",
+    "ndmf",
+]
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.5.0-rc.2/avatar-compressor-0.5.0-rc.2.zip"
+license = "MIT"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/avatar-compressor"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.avatars" = ">=3.10.0"
+"com.vrchat.base" = ">=3.10.0"
+"nadena.dev.ndmf" = ">=1.10.0"
+
+[[packages.versions]]
+version = "0.5.0-rc.1"
+tag = "v0.5.0-rc.1"
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.5.0-rc.1/package.json"
+hash = "sha256:508be2beb3ae0057bb38680b46492b8ea51fec85c4f5ee4f2d513f22a3c37072"
+
+[packages.versions.manifest]
+name = "dev.limitex.avatar-compressor"
+version = "0.5.0-rc.1"
+displayName = "Avatar Compressor"
+description = "Avatar Compressor: Non-Destructive Avatar Compression Utilities"
+unity = "2022.3"
+unityRelease = "22f1"
+keywords = [
+    "avatar",
+    "compression",
+    "texture",
+    "vrchat",
+    "optimization",
+    "ndmf",
+]
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.5.0-rc.1/avatar-compressor-0.5.0-rc.1.zip"
+license = "MIT"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/avatar-compressor"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.avatars" = ">=3.10.0"
+"com.vrchat.base" = ">=3.10.0"
+"nadena.dev.ndmf" = ">=1.10.0"
+
+[[packages.versions]]
+version = "0.4.0"
+tag = "v0.4.0"
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.4.0/package.json"
+hash = "sha256:80f6d4e90bbd36f0c8004f6bac00950c214eb4972327441912d508535c8dd98a"
+
+[packages.versions.manifest]
+name = "dev.limitex.avatar-compressor"
+version = "0.4.0"
+displayName = "Avatar Compressor"
+description = "Avatar Compressor: Non-Destructive Avatar Compression Utilities"
+unity = "2022.3"
+unityRelease = "22f1"
+keywords = [
+    "avatar",
+    "compression",
+    "texture",
+    "vrchat",
+    "optimization",
+    "ndmf",
+]
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.4.0/avatar-compressor-0.4.0.zip"
+license = "MIT"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/avatar-compressor"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.avatars" = ">=3.10.0"
+"com.vrchat.base" = ">=3.10.0"
+"nadena.dev.ndmf" = ">=1.10.0"
+
+[[packages.versions]]
+version = "0.4.0-rc.3"
+tag = "v0.4.0-rc.3"
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.4.0-rc.3/package.json"
+hash = "sha256:0cec4f91f3002075a319169bd1a209310dcdee78b905b88b57b8e97b740e5276"
+
+[packages.versions.manifest]
+name = "dev.limitex.avatar-compressor"
+version = "0.4.0-rc.3"
+displayName = "Avatar Compressor"
+description = "Avatar Compressor: Non-Destructive Avatar Compression Utilities"
+unity = "2022.3"
+unityRelease = "22f1"
+keywords = [
+    "avatar",
+    "compression",
+    "texture",
+    "vrchat",
+    "optimization",
+    "ndmf",
+]
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.4.0-rc.3/avatar-compressor-0.4.0-rc.3.zip"
+license = "MIT"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/avatar-compressor"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.avatars" = ">=3.10.0"
+"com.vrchat.base" = ">=3.10.0"
+"nadena.dev.ndmf" = ">=1.10.0"
+
+[[packages.versions]]
+version = "0.4.0-rc.2"
+tag = "v0.4.0-rc.2"
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.4.0-rc.2/package.json"
+hash = "sha256:793b1ffc59d8506e3783dbeec54e193b13047413aa19e59f5b99b19d69cb3d1c"
+
+[packages.versions.manifest]
+name = "dev.limitex.avatar-compressor"
+version = "0.4.0-rc.2"
+displayName = "Avatar Compressor"
+description = "Avatar Compressor: Non-Destructive Avatar Compression Utilities"
+unity = "2022.3"
+unityRelease = "22f1"
+keywords = [
+    "avatar",
+    "compression",
+    "texture",
+    "vrchat",
+    "optimization",
+    "ndmf",
+]
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.4.0-rc.2/avatar-compressor-0.4.0-rc.2.zip"
+license = "MIT"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/avatar-compressor"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.avatars" = ">=3.10.0"
+"com.vrchat.base" = ">=3.10.0"
+"nadena.dev.ndmf" = ">=1.10.0"
+
+[[packages.versions]]
+version = "0.4.0-rc.1"
+tag = "v0.4.0-rc.1"
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.4.0-rc.1/package.json"
+hash = "sha256:27fc984fe6a00291aa03f48e255bf2c23bde00ff2f9104d4bc2de508c8d7a152"
+
+[packages.versions.manifest]
+name = "dev.limitex.avatar-compressor"
+version = "0.4.0-rc.1"
+displayName = "Avatar Compressor"
+description = "Avatar Compressor: Non-Destructive Avatar Compression Utilities"
+unity = "2022.3"
+unityRelease = "22f1"
+keywords = [
+    "avatar",
+    "compression",
+    "texture",
+    "vrchat",
+    "optimization",
+    "ndmf",
+]
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.4.0-rc.1/avatar-compressor-0.4.0-rc.1.zip"
+license = "MIT"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/avatar-compressor"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.avatars" = ">=3.10.0"
+"com.vrchat.base" = ">=3.10.0"
+"nadena.dev.ndmf" = ">=1.10.0"
+
+[[packages.versions]]
+version = "0.3.4"
+tag = "v0.3.4"
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.3.4/package.json"
+hash = "sha256:0247f28729f3962b249640473783ae71d6d62f7a75450f3485526abc9ab9df07"
+
+[packages.versions.manifest]
+name = "dev.limitex.avatar-compressor"
+version = "0.3.4"
+displayName = "Avatar Compressor"
+description = "Avatar Compressor: Non-Destructive Avatar Compression Utilities"
+unity = "2022.3"
+unityRelease = "22f1"
+keywords = [
+    "avatar",
+    "compression",
+    "texture",
+    "vrchat",
+    "optimization",
+    "ndmf",
+]
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.3.4/avatar-compressor-0.3.4.zip"
+license = "MIT"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/avatar-compressor"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.avatars" = ">=3.10.0"
+"com.vrchat.base" = ">=3.10.0"
+"nadena.dev.ndmf" = ">=1.10.0"
+
+[[packages.versions]]
+version = "0.3.3"
+tag = "v0.3.3"
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.3.3/package.json"
+hash = "sha256:c8bbbf96bf7983fc598fef5f98e27eca25f6b303044902ba2f540b3384064ece"
+
+[packages.versions.manifest]
+name = "dev.limitex.avatar-compressor"
+version = "0.3.3"
+displayName = "Avatar Compressor"
+description = "Avatar Compressor: Non-Destructive Avatar Compression Utilities"
+unity = "2022.3"
+unityRelease = "22f1"
+keywords = [
+    "avatar",
+    "compression",
+    "texture",
+    "vrchat",
+    "optimization",
+    "ndmf",
+]
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.3.3/avatar-compressor-0.3.3.zip"
+license = "MIT"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/avatar-compressor"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.avatars" = ">=3.10.0"
+"com.vrchat.base" = ">=3.10.0"
+"nadena.dev.ndmf" = ">=1.10.0"
+
+[[packages.versions]]
+version = "0.3.2"
+tag = "v0.3.2"
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.3.2/package.json"
+hash = "sha256:f2e95befda3f3cbaa3fd54adbd6e133daa96181699707baa7486a053d3a1b7c5"
+
+[packages.versions.manifest]
+name = "dev.limitex.avatar-compressor"
+version = "0.3.2"
+displayName = "Avatar Compressor"
+description = "Avatar Compressor: Non-Destructive Avatar Compression Utilities"
+unity = "2022.3"
+unityRelease = "22f1"
+keywords = [
+    "avatar",
+    "compression",
+    "texture",
+    "vrchat",
+    "optimization",
+    "ndmf",
+]
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.3.2/avatar-compressor-0.3.2.zip"
+license = "MIT"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/avatar-compressor"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.avatars" = ">=3.10.0"
+"com.vrchat.base" = ">=3.10.0"
+"nadena.dev.ndmf" = ">=1.10.0"
+
+[[packages.versions]]
+version = "0.3.1"
+tag = "v0.3.1"
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.3.1/package.json"
+hash = "sha256:0cdd856816affea842fc071ca84f8adc92bdbffa2b705fb7c6e8f6c7a3db6682"
+
+[packages.versions.manifest]
+name = "dev.limitex.avatar-compressor"
+version = "0.3.1"
+displayName = "Avatar Compressor"
+description = "Avatar Compressor: Non-Destructive Avatar Compression Utilities"
+unity = "2022.3"
+unityRelease = "22f1"
+keywords = [
+    "avatar",
+    "compression",
+    "texture",
+    "vrchat",
+    "optimization",
+    "ndmf",
+]
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.3.1/avatar-compressor-0.3.1.zip"
+license = "MIT"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/avatar-compressor"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.avatars" = ">=3.10.0"
+"com.vrchat.base" = ">=3.10.0"
+"nadena.dev.ndmf" = ">=1.10.0"
+
+[[packages.versions]]
+version = "0.3.0"
+tag = "v0.3.0"
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.3.0/package.json"
+hash = "sha256:62e433637c8d8fe0951d10a79205b28f5983fb2e4db3f0ef7c529a6f41c68114"
+
+[packages.versions.manifest]
+name = "dev.limitex.avatar-compressor"
+version = "0.3.0"
+displayName = "Avatar Compressor"
+description = "Avatar Compressor: Non-Destructive Avatar Compression Utilities"
+unity = "2022.3"
+unityRelease = "22f1"
+keywords = [
+    "avatar",
+    "compression",
+    "texture",
+    "vrchat",
+    "optimization",
+    "ndmf",
+]
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.3.0/avatar-compressor-0.3.0.zip"
+license = "MIT"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/avatar-compressor"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.avatars" = ">=3.10.0"
+"com.vrchat.base" = ">=3.10.0"
+"nadena.dev.ndmf" = ">=1.10.0"
+
+[[packages.versions]]
+version = "0.3.0-rc.1"
+tag = "v0.3.0-rc.1"
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.3.0-rc.1/package.json"
+hash = "sha256:663ca3455c0de3cd3ea241a69a1a7ca03c67230a818fe56d8b421109706b71b3"
+
+[packages.versions.manifest]
+name = "dev.limitex.avatar-compressor"
+version = "0.3.0-rc.1"
+displayName = "Avatar Compressor"
+description = "Avatar Compressor: Non-Destructive Avatar Compression Utilities"
+unity = "2022.3"
+unityRelease = "22f1"
+keywords = [
+    "avatar",
+    "compression",
+    "texture",
+    "vrchat",
+    "optimization",
+    "ndmf",
+]
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.3.0-rc.1/avatar-compressor-0.3.0-rc.1.zip"
+license = "MIT"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/avatar-compressor"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.avatars" = ">=3.10.0"
+"com.vrchat.base" = ">=3.10.0"
+"nadena.dev.ndmf" = ">=1.10.0"
+
+[[packages.versions]]
+version = "0.2.0"
+tag = "v0.2.0"
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.2.0/package.json"
+hash = "sha256:f798ecc63c5397003bfe5691048360d33188dc010f5bfd09a712083f2b3d5ebb"
+
+[packages.versions.manifest]
+name = "dev.limitex.avatar-compressor"
+version = "0.2.0"
+displayName = "Avatar Compressor"
+description = "Avatar Compressor: Non-Destructive Avatar Compression Utilities"
+unity = "2022.3"
+unityRelease = "22f1"
+keywords = [
+    "avatar",
+    "compression",
+    "texture",
+    "vrchat",
+    "optimization",
+    "ndmf",
+]
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.2.0/avatar-compressor-0.2.0.zip"
+license = "MIT"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/avatar-compressor"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.avatars" = ">=3.10.0"
+"com.vrchat.base" = ">=3.10.0"
+"nadena.dev.ndmf" = ">=1.10.0"
+
+[[packages.versions]]
+version = "0.1.0"
+tag = "v0.1.0"
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.1.0/package.json"
+hash = "sha256:e1586fa28473fb85d167e1c523deb7a859b98eb367c360eb6b3b7ad7689b9541"
+
+[packages.versions.manifest]
+name = "dev.limitex.avatar-compressor"
+version = "0.1.0"
+displayName = "Avatar Compressor"
+description = "Avatar Compressor: Non-Destructive Avatar Compression Utilities"
+unity = "2022.3"
+unityRelease = "22f1"
+keywords = [
+    "avatar",
+    "compression",
+    "texture",
+    "vrchat",
+    "optimization",
+    "ndmf",
+]
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.1.0/avatar-compressor-0.1.0.zip"
+license = "MIT"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/avatar-compressor"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.avatars" = ">=3.10.0"
+"com.vrchat.base" = ">=3.10.0"
+"nadena.dev.ndmf" = ">=1.10.0"

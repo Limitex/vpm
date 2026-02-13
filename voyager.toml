@@ -1,0 +1,13 @@
+[vpm]
+id = "dev.limitex"
+name = "Limitex Packages"
+author = "Limitex"
+url = "https://vpm.limitex.dev/index.json"
+
+[[packages]]
+id = "dev.limitex.mono-ui"
+repository = "Limitex/mono-ui"
+
+[[packages]]
+id = "dev.limitex.avatar-compressor"
+repository = "Limitex/avatar-compressor"
