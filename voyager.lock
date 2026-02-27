@@ -560,6 +560,40 @@ id = "dev.limitex.avatar-compressor"
 repository = "Limitex/avatar-compressor"
 
 [[packages.versions]]
+version = "0.6.0-beta.1"
+tag = "v0.6.0-beta.1"
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.6.0-beta.1/package.json"
+hash = "sha256:45e69cc0378a43e452a407008e4fa0a3f106e8396514f51c0c813d1c093608a6"
+
+[packages.versions.manifest]
+name = "dev.limitex.avatar-compressor"
+version = "0.6.0-beta.1"
+displayName = "Avatar Compressor"
+description = "Avatar Compressor: Non-Destructive Avatar Compression Utilities"
+unity = "2022.3"
+unityRelease = "22f1"
+keywords = [
+    "avatar",
+    "compression",
+    "texture",
+    "vrchat",
+    "optimization",
+    "ndmf",
+]
+url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.6.0-beta.1/avatar-compressor-0.6.0-beta.1.zip"
+license = "MIT"
+
+[packages.versions.manifest.author]
+name = "Limitex"
+email = "76650151+Limitex@users.noreply.github.com"
+url = "https://github.com/Limitex/avatar-compressor"
+
+[packages.versions.manifest.vpmDependencies]
+"com.vrchat.base" = ">=3.10.0"
+"com.vrchat.avatars" = ">=3.10.0"
+"nadena.dev.ndmf" = ">=1.10.0"
+
+[[packages.versions]]
 version = "0.5.0"
 tag = "v0.5.0"
 url = "https://github.com/Limitex/avatar-compressor/releases/download/v0.5.0/package.json"
