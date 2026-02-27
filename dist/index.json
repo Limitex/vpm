@@ -446,6 +446,34 @@
     },
     "dev.limitex.avatar-compressor": {
       "versions": {
+        "0.6.0-beta.1": {
+          "name": "dev.limitex.avatar-compressor",
+          "version": "0.6.0-beta.1",
+          "displayName": "Avatar Compressor",
+          "description": "Avatar Compressor: Non-Destructive Avatar Compression Utilities",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          "keywords": [
+            "avatar",
+            "compression",
+            "texture",
+            "vrchat",
+            "optimization",
+            "ndmf"
+          ],
+          "author": {
+            "name": "Limitex",
+            "email": "76650151+Limitex@users.noreply.github.com",
+            "url": "https://github.com/Limitex/avatar-compressor"
+          },
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.10.0",
+            "com.vrchat.base": ">=3.10.0",
+            "nadena.dev.ndmf": ">=1.10.0"
+          },
+          "url": "https://github.com/Limitex/avatar-compressor/releases/download/v0.6.0-beta.1/avatar-compressor-0.6.0-beta.1.zip",
+          "license": "MIT"
+        },
         "0.5.0": {
           "name": "dev.limitex.avatar-compressor",
           "version": "0.5.0",
