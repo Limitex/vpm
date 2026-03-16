@@ -7,8 +7,6 @@ on:
     paths:
       - "dist/**/*"
       - "voyager.*"
-      - ".github/workflows/validate.yml"
-      - ".github/actions/setup-voyager/**"
     types:
       - opened
       - synchronize
