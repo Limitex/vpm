@@ -1,0 +1,21 @@
+name: "Dispatch vpmc deploy"
+
+on:
+  workflow_run:
+    workflows: ["Deploy"]
+    types:
+      - completed
+
+permissions: {}
+
+jobs:
+  dispatch:
+    name: "Dispatch"
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.DISPATCH_PAT }}
+          repository: Limitex/vpmc
+          event-type: deploy
